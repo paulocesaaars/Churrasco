@@ -2,25 +2,24 @@
 {
 	public class Convidado
 	{
-        public Convidado(string nome, string status, bool pagou)
-        {
-            this.nome = nome;
-            this.status = status;
-            this.pagou = pagou;
-        }
-
-		public void PodeEntrar() { }
-
-        public string nome { get; set; }
+		public string nome { get; set; }
 		public string status { get; set; }
 		public bool pagou { get; set; }
+		
+		public Convidado(string nome, string status, bool pagou)
+		{
+		    this.nome = nome;
+		    this.status = status;
+		    this.pagou = pagou;
+		}
+
+		public void PodeEntrar() { }
 	}
 
 	public class ChurrasService
 	{
 		private void ExecutaChurrasPaulao()
 		{
-
 			var convidados = new List<Convidado>();
 
 			// CONFIRMADOS
@@ -49,9 +48,9 @@
 
 			if (DateTime.Now == new DateTime(2022,04,02))
 			{
-						foreach (var convidado in convidados)
-							if (convidado.pagou == true)
-								convidado.PodeEntrar();
+				foreach (var convidado in convidados)
+					if (convidado.pagou == true)
+						convidado.PodeEntrar();
 			}
 
 			return;
