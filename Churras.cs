@@ -24,11 +24,12 @@
 
 			// CONFIRMADOS
 			convidados.Add(new Convidado("Matheus",             "confirmado", true));
+			convidados.Add(new Convidado("Solange",             "confirmada", true));
 			convidados.Add(new Convidado("Yuki",                "confirmada", true));
 			convidados.Add(new Convidado("Sergio",              "confirmado", true));
 			convidados.Add(new Convidado("Sergio - Esposa",     "confirmada", true));
 			convidados.Add(new Convidado("Sergio - Filho",      "confirmado", true));
-			convidados.Add(new Convidado("Cristofer",           "confirmado", false));
+			convidados.Add(new Convidado("Cristofer",           "confirmado", true));
 			convidados.Add(new Convidado("João Lucas",          "confirmado", false));
 			convidados.Add(new Convidado("João Lucas - Esposa", "confirmada", false));
 			convidados.Add(new Convidado("João Lucas - Filho",  "confirmado", false));
@@ -43,7 +44,6 @@
 			// INTERESSADOS
 			convidados.Add(new Convidado("Tiago Altomare", "interassado", false));
 			convidados.Add(new Convidado("Rafael",         "interassado", false));
-			convidados.Add(new Convidado("Solange",        "interassada", false));
 			convidados.Add(new Convidado("João Darci",     "interassado", false));
 			convidados.Add(new Convidado("Marcele",        "interassada", false));
 
