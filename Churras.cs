@@ -22,17 +22,16 @@
 		{
 			var convidados = new List<Convidado>();
 
-			// CONFIRMADOS
 			convidados.Add(new Convidado("Matheus",             "confirmado", true));
 			convidados.Add(new Convidado("Solange",             "confirmada", true));
+			convidados.Add(new Convidado("Cristofer",           "confirmado", true));
 			convidados.Add(new Convidado("Yuki",                "confirmada", true));
+			convidados.Add(new Convidado("João Lucas",          "confirmado", true));
+			convidados.Add(new Convidado("João Lucas - Esposa", "confirmada", true));
+			convidados.Add(new Convidado("João Lucas - Filho",  "confirmado", true));
 			convidados.Add(new Convidado("Sergio",              "confirmado", true));
 			convidados.Add(new Convidado("Sergio - Esposa",     "confirmada", true));
 			convidados.Add(new Convidado("Sergio - Filho",      "confirmado", true));
-			convidados.Add(new Convidado("Cristofer",           "confirmado", true));
-			convidados.Add(new Convidado("João Lucas",          "confirmado", false));
-			convidados.Add(new Convidado("João Lucas - Esposa", "confirmada", false));
-			convidados.Add(new Convidado("João Lucas - Filho",  "confirmado", false));
 			convidados.Add(new Convidado("Bruno",               "confirmado", false));
 			convidados.Add(new Convidado("Bruno - Esposa",      "confirmada", false));
 			convidados.Add(new Convidado("Bruno - Filha)",      "confirmada", false));
@@ -40,12 +39,6 @@
 			convidados.Add(new Convidado("Carlos - Esposa",     "confirmada", false));
 			convidados.Add(new Convidado("Carlos - Filha",      "confirmada", false));
 			convidados.Add(new Convidado("Carlos - Filha",      "confirmada", false));
-
-			// INTERESSADOS
-			convidados.Add(new Convidado("Tiago Altomare", "interassado", false));
-			convidados.Add(new Convidado("Rafael",         "interassado", false));
-			convidados.Add(new Convidado("João Darci",     "interassado", false));
-			convidados.Add(new Convidado("Marcele",        "interassada", false));
 
 			if (DateTime.Now == new DateTime(2022,04,02))
 			{
