@@ -20,12 +20,17 @@
 	{
 		private void ExecutaChurrasPaulao()
 		{
-			var convidados = new List<Convidado>();
+			var convidados = new List<Convidado>(22);
 
 			convidados.Add(new Convidado("Matheus",             "confirmado", true));
 			convidados.Add(new Convidado("Solange",             "confirmada", true));
 			convidados.Add(new Convidado("Cristofer",           "confirmado", true));
 			convidados.Add(new Convidado("Yuki",                "confirmada", true));
+			convidados.Add(new Convidado("Paulo",               "confirmado", true));
+			convidados.Add(new Convidado("Paulo - Esposa",      "confirmado", true));
+			convidados.Add(new Convidado("Paulo - Filha",       "confirmado", true));
+			convidados.Add(new Convidado("Paulo - Sogro",       "confirmado", true));
+			convidados.Add(new Convidado("Paulo - Sogra",       "confirmado", true));
 			convidados.Add(new Convidado("João Lucas",          "confirmado", true));
 			convidados.Add(new Convidado("João Lucas - Esposa", "confirmada", true));
 			convidados.Add(new Convidado("João Lucas - Filho",  "confirmado", true));
