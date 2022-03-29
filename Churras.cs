@@ -31,6 +31,7 @@
 			convidados.Add(new Convidado("Paulo - Filha",       "confirmada", true));
 			convidados.Add(new Convidado("Paulo - Sogro",       "confirmado", true));
 			convidados.Add(new Convidado("Paulo - Sogra",       "confirmada", true));
+			convidados.Add(new Convidado("Paulo - cunhado",     "confirmada", true));
 			convidados.Add(new Convidado("João Lucas",          "confirmado", true));
 			convidados.Add(new Convidado("João Lucas - Esposa", "confirmada", true));
 			convidados.Add(new Convidado("João Lucas - Filho",  "confirmado", true));
