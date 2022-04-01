@@ -38,9 +38,9 @@
 			convidados.Add(new Convidado("Sergio",              "confirmado", true));
 			convidados.Add(new Convidado("Sergio - Esposa",     "confirmada", true));
 			convidados.Add(new Convidado("Sergio - Filho",      "confirmado", true));
-			convidados.Add(new Convidado("Bruno",               "confirmado", false));
-			convidados.Add(new Convidado("Bruno - Esposa",      "confirmada", false));
-			convidados.Add(new Convidado("Bruno - Filha)",      "confirmada", false));
+			convidados.Add(new Convidado("Bruno",               "confirmado", true));
+			convidados.Add(new Convidado("Bruno - Esposa",      "confirmada", true));
+			convidados.Add(new Convidado("Bruno - Filha)",      "confirmada", true));
 			convidados.Add(new Convidado("Carlos",              "confirmado", false));
 			convidados.Add(new Convidado("Carlos - Esposa",     "confirmada", false));
 			convidados.Add(new Convidado("Carlos - Filha",      "confirmada", false));
