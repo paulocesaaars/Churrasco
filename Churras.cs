@@ -41,10 +41,10 @@
 			convidados.Add(new Convidado("Bruno",               "JÁ PAGOU", true));
 			convidados.Add(new Convidado("Bruno - Esposa",      "JÁ PAGOU", true));
 			convidados.Add(new Convidado("Bruno - Filha)",      "JÁ PAGOU", true));
-			convidados.Add(new Convidado("Carlos",              "NÃOPAGOU", false));
-			convidados.Add(new Convidado("Carlos - Esposa",     "NÃOPAGOU", false));
-			convidados.Add(new Convidado("Carlos - Filha",      "NÃOPAGOU", false));
-			convidados.Add(new Convidado("Carlos - Filha",      "NÃOPAGOU", false));
+			convidados.Add(new Convidado("Carlos",              "NÃO PAGOU", false));
+			convidados.Add(new Convidado("Carlos - Esposa",     "NÃO PAGOU", false));
+			convidados.Add(new Convidado("Carlos - Filha",      "NÃO PAGOU", false));
+			convidados.Add(new Convidado("Carlos - Filha",      "NÃO PAGOU", false));
 
 			if (DateTime.Now == new DateTime(2022,04,02))
 			{
